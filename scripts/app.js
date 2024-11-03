@@ -1,5 +1,5 @@
 async function loadAdditives() {
-    const response = await fetch('/additives.csv');
+    const response = await fetch('./additives.csv');
     const data = await response.text();
     return data.split('\n').map(line => {
         const [eNumber, name] = line.split(',');
