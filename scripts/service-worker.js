@@ -5,8 +5,8 @@ const filesToCache = [
     '/styles/styles.css',
     '/scripts/app.js',
     '/additives.csv',
-    '/icons/icon-192x192.png',
-    '/icons/icon-512x512.png'
+    // '/icons/icon-192x192.png',
+    // '/icons/icon-512x512.png'
 ];
 
 // Install Service Worker and cache files
